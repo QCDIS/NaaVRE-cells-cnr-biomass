@@ -20,6 +20,5 @@ outputs = args.outputs.replace('"','')
 
 
 
-
 outputs['nome'] = 'TEST'
 
