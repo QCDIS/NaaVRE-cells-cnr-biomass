@@ -20,6 +20,5 @@ inputs = args.inputs.replace('"','')
 
 
 
-
 print(inputs["saluto"])
 
