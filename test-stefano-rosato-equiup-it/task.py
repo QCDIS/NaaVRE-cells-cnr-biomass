@@ -23,7 +23,7 @@ outputs = args.outputs.replace('"','')
 
 
 
-nome = inputs.get("nome", "Mario")  # valore di default se 'nome' mancante
+nome = inputs['nome']
 
 messaggio = f"Ciao, {nome}!"
 
