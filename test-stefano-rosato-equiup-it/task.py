@@ -24,8 +24,6 @@ outputs = args.outputs.replace('"','')
 
 
 nome = inputs['nome']
-
 messaggio = f"Ciao, {nome}!"
-
 outputs["saluto"] = messaggio
 
